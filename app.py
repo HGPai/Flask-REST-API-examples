@@ -6,7 +6,7 @@ app = Flask(__name__)
 api = Api(app=app)
 
 
-names = {'Hari': {'Unique ID': 12070, 'email': 'hgpai94@gmail.com', 'current user': True},
+names = {'Harry': {'Unique ID': 12070, 'email': 'harry211@gmail.com', 'current user': True},
          'Sam': {'Unique ID': 12125, 'email': 'sam122@gmail.com', 'current user': True},
          'Brad': {'Unique ID': 14052, 'email': 'brad455@gmail.com', 'current user': True}
          }
