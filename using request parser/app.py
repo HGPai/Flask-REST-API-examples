@@ -19,8 +19,6 @@ videos = {1: {'name': 'Python programming', 'views': 150240, 'likes': 1000},
           }
 
 # Function to check whether the video_id exists.
-
-
 def if_video_not_exists(video_id):
     if video_id not in videos:
         abort(404, message='The requested video does not exist')
